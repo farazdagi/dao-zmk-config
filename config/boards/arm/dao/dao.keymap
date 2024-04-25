@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 #define DEF 0
 #define LWR 1
@@ -35,43 +34,16 @@
   &mt LALT RBKT     &kp Q  &kp W  &kp E         &kp R          &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &mt RALT LBKT
   &mt LCTRL GRAVE   &kp A  &kp S  &kp D         &kp F          &kp G        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
   &mt LSHIFT MINUS  &kp Z  &kp X  &kp C         &kp V          &kp B        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BSLH
-                                  &lt 3 ESCAPE  &mt LGUI BSPC  &lt 1 TAB    &lt 2 ENTER  &mt RGUI SPACE  &lt 4 ESC
+                                  &lt 0 ESCAPE  &mt LGUI BSPC  &lt 1 TAB    &lt 0 ENTER  &mt RGUI SPACE  &lt 0 ESC
             >;
         };
 
         nums_layer {
             bindings = <
-  &trans  &kp COMMA  &none     &none      &none      &none        &kp N0     &kp N7  &kp N8     &kp N9  &kp COMMA  &trans
-  &trans  &kp DOT    &kp FSLH  &kp ASTRK  &kp PLUS   &kp EQUAL    &kp EQUAL  &kp N4  &kp N5     &kp N6  &kp DOT    &trans
-  &trans  &none      &none     &kp LEFT   &kp RIGHT  &none        &kp MINUS  &kp N1  &kp N2     &kp N3  &kp FSLH   &trans
-                               &kp ESC    &trans     &trans       &kp RET    &trans  &kt RSHFT
-            >;
-        };
-
-        symbols_layer {
-            bindings = <
-  &trans  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(TILDE)  &kp BSLH    &kp LS(LT)  &kp LS(GT)  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans
-  &trans  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans         &trans      &kp MINUS   &kp EQUAL   &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans
-  &trans  &kp EQUAL     &kp LS(AT)     &kp LS(POUND)  &trans         &trans      &trans      &trans      &trans        &trans        &trans  &trans
-                                       &trans         &trans         &trans      &trans      &trans      &trans
-            >;
-        };
-
-        paired_symbols_layer {
-            bindings = <
-  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT  &kp CARET        &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR   &kp UNDER  &kp PLUS
-  &trans    &none   &none     &none       &none      &kp PAGE_UP      &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &none      &trans
-  &trans    &none   &none     &none       &none      &kp PAGE_DOWN    &kp HOME   &kp END    &kp DOWN  &none      &none      &trans
-                              &trans      &trans     &lt 5 ESC        &lt 5 RET  &trans     &trans
-            >;
-        };
-
-        nav_layer {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+  &trans  &kp COMMA  &kp PLUS  &kp UP    &kp ASTRK  &none       &kp N0     &kp N7  &kp N8      &kp N9  &kp COMMA  &trans
+  &trans  &kp DOT    &kp LEFT  &kp DOWN  &kp RIGHT  &kp FSLH    &kp EQUAL  &kp N4  &kp N5      &kp N6  &kp DOT    &trans
+  &trans  &none      &none     &none     &none      &none       &kp MINUS  &kp N1  &kp N2      &kp N3  &kp FSLH   &trans
+                               &kp CAPS  &trans     &trans      &kp RET    &trans  &kp RSHIFT
             >;
         };
 

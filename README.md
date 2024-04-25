@@ -30,6 +30,19 @@ Because of current ZMK limitations, Dao44 keymap is in the branch [dao44](https:
   - [Problems](#problems)
     - [I'm getting File Transfer Error after copying firmware to the keyboard](#im-getting-file-transfer-error-after-copying-firmware-to-the-keyboard)
 
+Important links:
+
+To load your `dao.conf` for print out (as reference), rely on [keymap-drawer app](https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml)
+
+Use the following layout, ot fix the parsing error:
+```yaml
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+```
+
+To have a sample of quite extended configuration refer to https://github.com/SethMilliken/zmk-config/blob/main/config/shared.dtsi
+
+
+
 ### How to change the keymap?
 
 1. Fork the repository https://github.com/yumagulovrn/dao-zmk-config
