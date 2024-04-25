@@ -40,9 +40,9 @@
 
         nums_layer {
             bindings = <
-  &trans  &kp COMMA  &kp PLUS  &kp UP    &kp ASTRK  &none       &kp N0     &kp N7  &kp N8      &kp N9  &kp COMMA  &trans
+  &trans  &kp COMMA  &kp PLUS  &kp UP    &kp ASTRK  &none       &kp N0     &kp N1  &kp N2      &kp N3  &kp COMMA  &trans
   &trans  &kp DOT    &kp LEFT  &kp DOWN  &kp RIGHT  &kp FSLH    &kp EQUAL  &kp N4  &kp N5      &kp N6  &kp DOT    &trans
-  &trans  &none      &none     &none     &none      &none       &kp MINUS  &kp N1  &kp N2      &kp N3  &kp FSLH   &trans
+  &trans  &none      &none     &none     &none      &none       &kp MINUS  &kp N7  &kp N8      &kp N9  &kp FSLH   &trans
                                &kp CAPS  &trans     &trans      &kp RET    &trans  &kp RSHIFT
             >;
         };
