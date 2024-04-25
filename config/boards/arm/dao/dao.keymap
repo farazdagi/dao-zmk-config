@@ -34,7 +34,7 @@
   &mt LALT RBKT     &kp Q  &kp W  &kp E         &kp R          &kp T        &kp Y        &kp U           &kp I      &kp O    &kp P     &mt RALT LBKT
   &mt LCTRL GRAVE   &kp A  &kp S  &kp D         &kp F          &kp G        &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
   &mt LSHIFT MINUS  &kp Z  &kp X  &kp C         &kp V          &kp B        &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RSHIFT BSLH
-                                  &lt 0 ESCAPE  &mt LGUI BSPC  &lt 1 TAB    &lt 0 ENTER  &mt RGUI SPACE  &lt 0 ESC
+                                  &lt 0 ESCAPE  &mt LGUI BSPC  &lt 1 TAB    &lt 2 ENTER  &mt RGUI SPACE  &lt 0 ESC
             >;
         };
 
@@ -44,6 +44,15 @@
   &trans  &kp DOT    &kp LEFT  &kp DOWN  &kp RIGHT  &kp FSLH    &kp EQUAL  &kp N4  &kp N5      &kp N6  &kp DOT    &trans
   &trans  &none      &none     &none     &none      &none       &kp MINUS  &kp N7  &kp N8      &kp N9  &kp FSLH   &trans
                                &kp CAPS  &trans     &trans      &kp RET    &trans  &kp RSHIFT
+            >;
+        };
+
+        symbols_layer {
+            bindings = <
+  &trans  &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LBKT   &kp RBKT  &kp UP      &none      &none  &trans
+  &trans  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LPAR        &kp RPAR           &kp AMPS   &kp LEFT  &kp DOWN    &kp RIGHT  &none  &trans
+  &trans  &kp AMPS    &kp ASTRK    &kp UNDER  &kp LT          &kp GT             &kp UNDER  &kp DQT   &kp SQT     &kp GRAVE  &none  &trans
+                                   &kp LSHFT  &trans          &kp TAB            &trans     &trans    &kp RSHIFT
             >;
         };
 
