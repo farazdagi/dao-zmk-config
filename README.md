@@ -41,7 +41,7 @@ layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 
 To have a sample of quite extended configuration refer to https://github.com/SethMilliken/zmk-config/blob/main/config/shared.dtsi
 
-And, of course, don't forget to checkout zmk docs: https://zmk.dev/docs/codes
+An, of course, don't forget to checkout zmk docs: https://zmk.dev/docs/codes
 
 
 
