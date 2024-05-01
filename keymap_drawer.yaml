@@ -196,5 +196,8 @@ parse_config:
     NUHS: '#'
     TILDE2: '~'
     UP: ''
+    DOWN: ''
+    RIGHT: ''
+    LEFT: ''
   zmk_combos: {}
 
