@@ -105,9 +105,9 @@
 
         symbols_layer {
             bindings = <
-  &trans  &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LBKT   &kp RBKT  &kp UP      &none      &none  &trans
-  &trans  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LPAR        &kp RPAR           &kp AMPS   &kp LEFT  &kp DOWN    &kp RIGHT  &none  &trans
-  &trans  &kp AMPS    &kp ASTRK    &kp MINUS  &kp LT          &kp GT             &kp UNDER  &kp DQT   &kp SQT     &kp GRAVE  &none  &trans
+  &trans  &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LBKT   &kp RBKT  &kp UP      &none      &kp TILDE  &trans
+  &trans  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LPAR        &kp RPAR           &kp AMPS   &kp LEFT  &kp DOWN    &kp RIGHT  &none      &trans
+  &trans  &kp AMPS    &kp ASTRK    &kp MINUS  &kp LT          &kp GT             &kp UNDER  &kp DQT   &kp SQT     &kp GRAVE  &none      &trans
                                    &kp LSHFT  &trans          &kp TAB            &trans     &trans    &kp RSHIFT
             >;
         };
