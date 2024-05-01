@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: jorne/rev1}
 layers:
   default:
-  - {t: ']', h: LALT}
+  - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: RALT}
-  - {t: '`', h: LCTRL}
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - {t: '[', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '`', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
-  - {t: ;, h: RGUI}
-  - {t: '''', h: RCTRL}
-  - {t: '-', h: LSHIFT}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '-', h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -36,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: RSHIFT}
+  - {t: \, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ESC, h: media}
-  - {t: BSPC, h: LGUI}
-  - {t: TAB, h: nums}
+  - {t: BSPC, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: nums}
   - {t: ENTER, h: symbols}
-  - {t: SPACE, h: RGUI}
-  - {t: ESC, h: RSHFT}
+  - {t: SPACE, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ESC, h: '$$mdi:apple-keyboard-shift$$'}
   nums:
   - {t: ▽, type: trans}
   - ','
@@ -58,9 +58,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
-  - LEFT
-  - DOWN
-  - RIGHT
+  - 
+  - 
+  - 
   - /
   - '='
   - '4'
@@ -85,7 +85,7 @@ layers:
   - {type: held}
   - RET
   - {t: ▽, type: trans}
-  - RSHIFT
+  - $$mdi:apple-keyboard-shift$$
   symbols:
   - {t: ▽, type: trans}
   - '!'
@@ -106,9 +106,9 @@ layers:
   - (
   - )
   - '&'
-  - LEFT
-  - DOWN
-  - RIGHT
+  - 
+  - 
+  - 
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,12 +123,12 @@ layers:
   - '`'
   - ''
   - {t: ▽, type: trans}
-  - LSHFT
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
-  - TAB
+  - $$mdi:keyboard-tab$$
   - {type: held}
   - {t: ▽, type: trans}
-  - RSHIFT
+  - $$mdi:apple-keyboard-shift$$
   media:
   - ''
   - ''
@@ -168,7 +168,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {t: TAB, h: adjust}
+  - {t: '$$mdi:keyboard-tab$$', h: adjust}
   - ''
   - ''
   - ''
