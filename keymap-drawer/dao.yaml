@@ -1,0 +1,217 @@
+layout: {qmk_keyboard: jorne/rev1}
+layers:
+  default:
+  - {t: ']', h: LALT}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', h: RALT}
+  - {t: '`', h: LCTRL}
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RGUI}
+  - {t: '''', h: RCTRL}
+  - {t: '-', h: LSHIFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: \, h: RSHIFT}
+  - {t: ESC, h: media}
+  - {t: BSPC, h: LGUI}
+  - {t: TAB, h: nums}
+  - {t: ENTER, h: symbols}
+  - {t: SPACE, h: RGUI}
+  - {t: ESC, h: RSHFT}
+  nums:
+  - {t: ▽, type: trans}
+  - ','
+  - +
+  - UP
+  - '*'
+  - ''
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ','
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - LEFT
+  - DOWN
+  - RIGHT
+  - /
+  - '='
+  - '4'
+  - '5'
+  - '6'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - /
+  - {t: ▽, type: trans}
+  - {t: CAPS, h: adjust}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - RET
+  - {t: ▽, type: trans}
+  - RSHIFT
+  symbols:
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - '{'
+  - '}'
+  - '['
+  - ']'
+  - UP
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $
+  - '%'
+  - ^
+  - (
+  - )
+  - '&'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&'
+  - '*'
+  - '-'
+  - <
+  - '>'
+  - _
+  - '"'
+  - ''''
+  - '`'
+  - ''
+  - {t: ▽, type: trans}
+  - LSHFT
+  - {t: ▽, type: trans}
+  - TAB
+  - {type: held}
+  - {t: ▽, type: trans}
+  - RSHIFT
+  media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI DEC
+  - BRI INC
+  - REWIND
+  - PLAY PAUSE
+  - FAST FORWARD
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - {t: TAB, h: adjust}
+  - ''
+  - ''
+  - ''
+  adjust:
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRI DEC
+  - BRI UP
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - BT CLR
+  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&sys_reset'
+  - {type: held}
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
