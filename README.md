@@ -5,54 +5,27 @@ This is a repository for a ZMK Firmware for both Dao42 and Dao44 keyboards.
 * [main](https://github.com/yumagulovrn/dao-zmk-config/tree/main) branch is for Dao42
 * [dao44](https://github.com/yumagulovrn/dao-zmk-config/tree/dao44) branch is, obviously, for Dao44
 
-## Default keymap
 
-### Dao42
+## Keymap
 
-Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/67a81f6b83c65abcda5e7f32989a1688)
+![Keymap](keymap-drawer/dao.svg)
 
-This layout is heavily inspired by [this](https://github.com/aroum/Watchman-layouts)
+NB: this gets regenerated on every update to `dao.keymap` file (see workflows).
+You can also view the the keysmaps online: [DAO's layout @ keymap-drawer](https://keymap-drawer.streamlit.app/?zmk_url=https%3A%2F%2Fgithub.com%2Ffarazdagi%2Fdao-zmk-config%2Fblob%2Fmain%2Fconfig%2Fboards%2Farm%2Fdao%2Fdao.keymap&layout={%22qmk_keyboard%22:%20%22corne_rotated%22,%20%22qmk_layout%22:%20%22LAYOUT_split_3x6_3%22}).
 
-### Dao44
+The `keymap-drawer` application allows to call it by URL. However, normally layout of ZMK keymap file
+is not recognized correctly. So, you need to pass in `layout` URI param, i.e. 
+`layout={"qmk_keyboard": "corne_rotated", "qmk_layout": "LAYOUT_split_3x6_3"}`
 
-Visual representation of the default keymap in keyboard-layout-editor: [KLE](http://www.keyboard-layout-editor.com/#/gists/c6ba0634e5b92366be9f324775394e66)
-
-This layout is heavily inspired by [this](https://github.com/KGOH/Jian-Info)
-
-Because of current ZMK limitations, Dao44 keymap is in the branch [dao44](https://github.com/yumagulovrn/dao-zmk-config/tree/dao44)
-
-## FAQ
-
-- [FAQ](#faq)
-  - [How to change the keymap?](#how-to-change-the-keymap)
-  - [How to flash the keyboard?](#how-to-flash-the-keyboard)
-  - [How to pair halves?](#how-to-pair-halves)
-  - [Problems](#problems)
-    - [I'm getting File Transfer Error after copying firmware to the keyboard](#im-getting-file-transfer-error-after-copying-firmware-to-the-keyboard)
-
-Important links:
-
-To load your `dao.conf` for print out (as reference), rely on [keymap-drawer app](https://keymap-drawer.streamlit.app/?example_yaml=corneish_zen.yaml)
-
-Use the following layout, ot fix the parsing error:
-```yaml
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
-```
-
-To have a sample of quite extended configuration refer to https://github.com/SethMilliken/zmk-config/blob/main/config/shared.dtsi
-
-An, of course, don't forget to checkout zmk docs: https://zmk.dev/docs/codes
-
-
+## Hints
 
 ### How to change the keymap?
 
-1. Fork the repository https://github.com/yumagulovrn/dao-zmk-config
-2. Make changes to the [dao.keymap](../config/boards/arm/dao/dao.keymap) file in your repository OR use wonderful https://nickcoutsos.github.io/keymap-editor/
-3. Commit changes to your repository
-4. Go to `Actions` tab in your repository
-5. Wait for the GitHub Action to complete
-6. Grab `firmware.zip` file - it contains firmware for both of your halves
+1. Make changes to the [dao.keymap](../config/boards/arm/dao/dao.keymap) file, via wonderful 0 [keymap-editor](https://nickcoutsos.github.io/keymap-editor/)
+1. Commit changes to your repository
+1. Go to `Actions` tab in your repository
+1. Wait for the GitHub Action to complete
+1. Grab `firmware.zip` file - it contains firmware for both of your halves
 
 ### How to flash the keyboard?
 
@@ -71,8 +44,8 @@ An, of course, don't forget to checkout zmk docs: https://zmk.dev/docs/codes
 2. Turn on the power for both halves (move slider to position `ON`)
 3. Press `RESET` button **once** on both halves **simultaneously**
 
-### Problems
 
-#### I'm getting File Transfer Error after copying firmware to the keyboard
+### What can I configure?
 
-It's OK. Proof: https://zmk.dev/docs/troubleshooting#file-transfer-error
+See the extensive docs: https://zmk.dev/docs/codes
+
