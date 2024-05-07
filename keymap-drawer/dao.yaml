@@ -121,7 +121,7 @@ layers:
   - '"'
   - ''''
   - '`'
-  - ''
+  - '|'
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
