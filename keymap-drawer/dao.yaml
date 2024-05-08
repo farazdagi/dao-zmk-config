@@ -41,7 +41,7 @@ layers:
   - {t: BSPC, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-tab$$', h: nums}
   - {t: ENTER, h: symbols}
-  - {t: SPACE, h: '$$mdi:apple-keyboard-command$$'}
+  - SPACE
   - {t: ESC, h: '$$mdi:apple-keyboard-shift$$'}
   nums:
   - {t: ▽, type: trans}
