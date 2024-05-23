@@ -38,10 +38,10 @@ layers:
   - /
   - {t: \, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ESC, h: media}
-  - {t: BSPC, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ENTER, h: nums}
-  - {t: '$$mdi:keyboard-tab$$', h: symbols}
   - SPACE
+  - {t: '$$mdi:keyboard-tab$$', h: nums}
+  - {t: RET, h: symbols}
+  - BACKSPACE
   - {t: ESC, h: '$$mdi:apple-keyboard-shift$$'}
   nums:
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: CAPS, h: adjust}
   - {t: ▽, type: trans}
   - {type: held}
-  - $$mdi:keyboard-tab$$
+  - RET
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   symbols:
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
-  - ENTER
+  - $$mdi:keyboard-tab$$
   - {type: held}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
@@ -168,7 +168,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - {t: ENTER, h: adjust}
+  - {t: '$$mdi:keyboard-tab$$', h: adjust}
   - ''
   - ''
   - ''
