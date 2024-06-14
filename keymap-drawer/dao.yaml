@@ -215,3 +215,7 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [20, 21]
+  k: Ctl+ A
+  l: [default]
