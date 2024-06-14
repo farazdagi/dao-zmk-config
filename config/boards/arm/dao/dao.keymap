@@ -82,6 +82,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_ctrl_a {
+            bindings = <&kp RC(A)>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
