@@ -87,7 +87,7 @@
 
         combo_ctrl_a {
             bindings = <&kp RC(A)>;
-            key-positions = <20 19>;
+            key-positions = <7 8>;
             layers = <0>;
         };
     };
