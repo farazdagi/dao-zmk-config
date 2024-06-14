@@ -216,6 +216,6 @@ layers:
   - ''
   - ''
 combos:
-- p: [20, 19]
+- p: [7, 8]
   k: Ctl+ A
   l: [default]
