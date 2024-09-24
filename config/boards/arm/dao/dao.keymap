@@ -95,6 +95,21 @@
             bindings = <&tog 3>;
             key-positions = <4 5>;
         };
+
+        combo_app1 {
+            bindings = <&kp LG(N1)>;
+            key-positions = <27 28>;
+        };
+
+        combo_app2 {
+            bindings = <&kp LG(N2)>;
+            key-positions = <31 32>;
+        };
+
+        combo_app3 {
+            bindings = <&kp LG(N3)>;
+            key-positions = <31 32 33>;
+        };
     };
 
     keymap {
