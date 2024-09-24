@@ -160,7 +160,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - UP ARROW
   - ''
   - ''
   - ''
@@ -169,9 +169,9 @@ layers:
   - {type: held}
   - ''
   - {t: '$$mdi:keyboard-tab$$', h: adjust}
-  - ''
-  - ''
-  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   adjust:
   - '&bootloader'
   - ''
@@ -219,3 +219,5 @@ combos:
 - p: [7, 8]
   k: Ctl+ A
   l: [default]
+- p: [4, 5]
+  k: {t: media, h: toggle}
