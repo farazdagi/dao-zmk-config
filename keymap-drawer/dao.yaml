@@ -221,3 +221,9 @@ combos:
   l: [default]
 - p: [4, 5]
   k: {t: media, h: toggle}
+- p: [27, 28]
+  k: Gui+ 1
+- p: [31, 32]
+  k: Gui+ 2
+- p: [31, 32, 33]
+  k: Gui+ 3

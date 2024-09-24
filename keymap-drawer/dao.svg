@@ -348,6 +348,26 @@ path.combo { stroke: #7f7f7f; }
 <text x="280" y="38" class="combo tap layer-activator">media</text>
 </a><text x="280" y="50" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">
+<tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">1</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">
+<tspan x="616" dy="-0.6em">Gui+</tspan><tspan x="616" dy="1.2em">2</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<text x="644" y="145" class="combo tap">
+<tspan x="644" dy="-0.6em">Gui+</tspan><tspan x="644" dy="1.2em">3</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-nums">
@@ -522,6 +542,26 @@ path.combo { stroke: #7f7f7f; }
 <a href="#media">
 <text x="280" y="38" class="combo tap layer-activator">media</text>
 </a><text x="280" y="50" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">
+<tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">1</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">
+<tspan x="616" dy="-0.6em">Gui+</tspan><tspan x="616" dy="1.2em">2</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<text x="644" y="145" class="combo tap">
+<tspan x="644" dy="-0.6em">Gui+</tspan><tspan x="644" dy="1.2em">3</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -698,6 +738,26 @@ path.combo { stroke: #7f7f7f; }
 <a href="#media">
 <text x="280" y="38" class="combo tap layer-activator">media</text>
 </a><text x="280" y="50" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">
+<tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">1</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">
+<tspan x="616" dy="-0.6em">Gui+</tspan><tspan x="616" dy="1.2em">2</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<text x="644" y="145" class="combo tap">
+<tspan x="644" dy="-0.6em">Gui+</tspan><tspan x="644" dy="1.2em">3</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -883,6 +943,26 @@ path.combo { stroke: #7f7f7f; }
 <text x="280" y="38" class="combo tap layer-activator">media</text>
 </a><text x="280" y="50" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">
+<tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">1</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">
+<tspan x="616" dy="-0.6em">Gui+</tspan><tspan x="616" dy="1.2em">2</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<text x="644" y="145" class="combo tap">
+<tspan x="644" dy="-0.6em">Gui+</tspan><tspan x="644" dy="1.2em">3</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1323)" class="layer-adjust">
@@ -1055,6 +1135,26 @@ path.combo { stroke: #7f7f7f; }
 <a href="#media">
 <text x="280" y="38" class="combo tap layer-activator">media</text>
 </a><text x="280" y="50" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="210" y="130" width="28" height="26" class="combo"/>
+<text x="224" y="144" class="combo tap">
+<tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">1</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">
+<tspan x="616" dy="-0.6em">Gui+</tspan><tspan x="616" dy="1.2em">2</tspan>
+</text>
+</g>
+<g class="combo combopos-3">
+<path d="M644,145 l-37,2" class="combo"/>
+<path d="M644,145 l37,2" class="combo"/>
+<rect rx="6" ry="6" x="630" y="132" width="28" height="26" class="combo"/>
+<text x="644" y="145" class="combo tap">
+<tspan x="644" dy="-0.6em">Gui+</tspan><tspan x="644" dy="1.2em">3</tspan>
+</text>
 </g>
 </g>
 </g>
