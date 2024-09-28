@@ -167,7 +167,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - {t: '$$mdi:keyboard-tab$$', h: adjust}
   - LEFT ARROW
   - DOWN ARROW
