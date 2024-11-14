@@ -185,7 +185,7 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  - BT CLR
+  - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
