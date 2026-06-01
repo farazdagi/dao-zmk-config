@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: jorne/rev1}
+layout: {zmk_keyboard: dao, layout_name: default_transform}
 layers:
   default:
   - {t: ']', h: '$$mdi:apple-keyboard-option$$'}
@@ -227,3 +227,5 @@ combos:
   k: Gui+ 2
 - p: [31, 32, 33]
   k: Gui+ 3
+- p: [26, 27, 28]
+  k: Gui+ 4
