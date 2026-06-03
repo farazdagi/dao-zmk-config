@@ -115,6 +115,16 @@
             bindings = <&kp LG(N4)>;
             key-positions = <26 27 28>;
         };
+
+        combo_app5 {
+            bindings = <&kp LG(N5)>;
+            key-positions = <2 3 4>;
+        };
+
+        combo_app6 {
+            bindings = <&kp LG(N6)>;
+            key-positions = <7 8 9>;
+        };
     };
 
     keymap {
